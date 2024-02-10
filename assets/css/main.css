@@ -2646,7 +2646,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 800px) {
 
 			.image.fit {
 				margin: 2rem 0;
