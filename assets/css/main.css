@@ -3876,6 +3876,10 @@ input, select, textarea {
 				/* Set a specific height for the iframe */
 				height: 800px;
 			  }
+			  #main>.article{
+				overflow: hidden
+			  }
+			  
 
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
