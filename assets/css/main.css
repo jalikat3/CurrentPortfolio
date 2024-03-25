@@ -3868,6 +3868,14 @@ input, select, textarea {
 				border-top-width: 2px;
 				text-align: center;
 			}
+			#main >.posts> .article > iframe {
+				/* Set the maximum width for the iframe within the article container */
+				max-width: 100%;
+				/* Ensure that the iframe doesn't exceed its container's width */
+				width: 100%;
+				/* Set a specific height for the iframe */
+				height: 800px;
+			  }
 
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
